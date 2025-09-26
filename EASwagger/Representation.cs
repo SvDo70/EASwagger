@@ -2,16 +2,16 @@
 
 namespace EASwagger
 {
-    class Property
-    {
-        public string name = "";
-        public string type = "";
-        public string format = "";
-    }
+  class Property
+  {
+    public string name = "";
+    public string type = "";
+    public string format = "";
+  }
 
-    class Representation
-    {
-        public string name;
-        public List<Property> properties;
-    }
+  class Representation
+  {
+    public string name;
+    public List<Property> properties;
+  }
 }
